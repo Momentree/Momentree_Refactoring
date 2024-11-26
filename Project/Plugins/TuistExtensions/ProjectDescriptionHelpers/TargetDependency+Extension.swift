@@ -8,12 +8,6 @@
 import ProjectDescription
 
 public extension TargetDependency {
-    enum SPM {
-        public static let ComposableArchitecture = TargetDependency.external(
-            name: "ComposableArchitecture"
-        )
-        public static let TCACoordinator = TargetDependency.external(
-            name: "TCACoordinator"
-        )
-    }
+    nonisolated(unsafe) static var ComposableArchitecture: TargetDependency = .external(name: "ComposableArchitecture")
+    nonisolated(unsafe) static var TCACoordinators: TargetDependency = .external(name: "TCACoordinators")
 }

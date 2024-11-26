@@ -23,8 +23,8 @@ let utils = Project(
                     ],
                 ]
             ),
-            sources: ["Sources/**"],
-            resources: ["Resources/**"],
+            sources: ["MomentreeUtils/Sources/**"],
+            resources: ["MomentreeUtils/Resources/**"],
             dependencies: []
         ),
         .target(
@@ -33,7 +33,7 @@ let utils = Project(
             product: .unitTests,
             bundleId: "com.importants.momentree.utils.tests",
             infoPlist: .default,
-            sources: ["Tests/**"],
+            sources: ["MomentreeUtils/Tests/**"],
             resources: [],
             dependencies: [.target(name: "MomentreeUtils")]
         ),

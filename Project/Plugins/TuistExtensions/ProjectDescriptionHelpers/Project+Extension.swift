@@ -76,11 +76,13 @@ private extension Project {
             bundleId: bundleId,
             deploymentTargets: deploymentTargets,
             infoPlist: .extendingDefault(with: SettingsDictionary.baseInfoPlist),
-            sources: ["Sources/**"],
-            resources: ["Resources/**"],
+            sources: ["Momentree/Sources/**"],
+            resources: ["Momentree/Resources/**"],
             dependencies: dependencies,
             settings: .settings(
-                base: [:],
+                base: [
+                    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+                ],
                 configurations: Configuration.configure(
                     configurations: Configuration.ConfigScheme.allCases
                 )
@@ -100,12 +102,9 @@ private extension Project {
             destinations: destinations,
             product: .unitTests,
             bundleId: "\(bundleId)Tests",
-            sources: ["Tests/**"],
+            sources: ["Momentree/Tests/**"],
             resources: [],
             dependencies: dependencies
         )
     }
-    
-
 }
-/Volumes/SSD2TB/Personal/SwiftUI/Momentree_Refactoring/Project/Configuration/XCConfigs

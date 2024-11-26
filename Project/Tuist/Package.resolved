@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-composable-architecture.git",
       "state" : {
-        "branch" : "1.16.1",
-        "revision" : "69247baf7be2fd6f5820192caef0082d01849cd0"
+        "revision" : "cf967a28a8605629559533320d604168d733fc9c",
+        "version" : "1.8.0"
       }
     },
     {
@@ -91,15 +91,6 @@
       }
     },
     {
-      "identity" : "swift-navigation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-navigation",
-      "state" : {
-        "revision" : "16a27ab7ae0abfefbbcba73581b3e2380b47a579",
-        "version" : "2.2.2"
-      }
-    },
-    {
       "identity" : "swift-perception",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-perception",
@@ -111,10 +102,19 @@
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-syntax",
+      "location" : "https://github.com/apple/swift-syntax",
       "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    },
+    {
+      "identity" : "swiftui-navigation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swiftui-navigation",
+      "state" : {
+        "revision" : "e628806aeaa9efe25c1abcd97931a7c498fab281",
+        "version" : "1.5.5"
       }
     },
     {
@@ -122,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/johnpatrickmorgan/TCACoordinators.git",
       "state" : {
-        "branch" : "0.10.1",
-        "revision" : "8d2b3f9bbb5778fc6a20cde98bb45592e4ef0431"
+        "revision" : "8d2b3f9bbb5778fc6a20cde98bb45592e4ef0431",
+        "version" : "0.10.1"
       }
     },
     {
